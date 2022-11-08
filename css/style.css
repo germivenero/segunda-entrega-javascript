@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+header {
+    align-content: center;
+    align-items: center;
+    background-color: #1C2631;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+nav ul li {
+    display: inline;
+    justify-content:space-between;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo--entradas {
+    width: 10%;
+    max-width: auto;
+    align-content: center;
+}
+
+.menu--entradasprincipal {
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu--entradassecundarias {
+    display: flex;
+}
